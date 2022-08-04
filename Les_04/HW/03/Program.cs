@@ -20,7 +20,7 @@ void PrintArray(int[] mass)
     int count = mass.Length;
     for (int i = 0; i < count; i++)
     {
-       Console.Write(mass[i]); 
+       Console.Write($"{mass[i]}, "); 
     } 
 }
 PrintArray(RanArr);
