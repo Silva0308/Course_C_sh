@@ -8,7 +8,7 @@ void Print(double[,] array)
     {
         for (int j = 0; j < column_size; j++)
         {
-            Console.Write($" {array[i, j]} ");
+            Console.Write("{0,6:F2}",array[i, j]);
         }
         Console.WriteLine();
     }
