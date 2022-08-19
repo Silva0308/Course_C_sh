@@ -43,9 +43,9 @@ void OrderArrayLines(int[,] array)
       {
         if (array[i, k] < array[i, k + 1])
         {
-          int temp = array[i, k + 1];
+          int temp = array[i, k + 1]; 
           array[i, k + 1] = array[i, k];
-          array[i, k] = temp;
+          array[i, k] = temp; 
         }
       }
     }
